@@ -1,0 +1,107 @@
+@media (max-width: 1220px) {
+
+    /*
+    body::after {
+        content: 'tablet';
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    */
+    body {
+        width: 747px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    #logoImg {
+        transform: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    header ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header li {
+        margin: 0;
+    }
+
+    .spalten img {
+        width: 300px;
+        padding-left: 40px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 420px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    /*
+    body::after {
+        content: 'phone';
+    }
+    */
+    body {
+        width: calc(100% - 10px);
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header li {
+        margin: 7px;
+        text-align: center;
+    }
+
+    .spalten {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .spalten p,
+    .spalten img {
+        max-width: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    #iframeContainer.inactive::after {
+        font-size: 5vw;
+        left: 20px;
+        right: 20px;
+    }
+
+    iframe {
+        width: calc(100% - 40px);
+        display: block;
+        margin: 0 auto;
+        height: calc(90vw / 1.9);
+    }
+
+    .footerNavigation {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .footerNavigation li {
+        margin: 7px;
+        text-align: center;
+    }
+}

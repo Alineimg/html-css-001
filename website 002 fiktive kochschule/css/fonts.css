@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Segoe Print';
+    src: url('../fonts/SEGOEPR.TTF') format(TTF);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SEGUIVAR.TTF') format(TTF);
+    font-weight: 400;
+}

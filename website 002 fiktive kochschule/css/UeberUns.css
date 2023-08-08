@@ -1,0 +1,141 @@
+body {
+    background-color: white;
+    color:#353A40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0px;
+    padding-top: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+#logoImg {
+    flex-direction: column;
+    max-width: 220px;
+    margin-top: 5px;
+    }
+
+
+li {
+display: inline-block;
+margin: 20px;
+margin-top: 80px ;
+}
+
+a{
+    color:#353A40;
+    text-decoration: none;
+    transition: all 0.5;
+}
+
+a:hover {
+ color: rgb(238, 151, 51);
+
+}
+
+main {
+    flex-direction: row;
+
+}
+
+section {
+    margin-bottom: 90px;
+    /*Abstand zwischen ALLE SECTIONS von der Page*/
+}
+
+.Koechinnen {
+    width: 590px;
+    margin-top: 90px; /*---Abstand zwischen Foto Köchinnen und Top von DIV Willkommen-------*/
+    padding-left: 130px ; /* -Abstand Foto Köchinnen und left von deinen eigenen DIV*/
+    display: flex ;
+}
+
+.Aline_Estefania {
+    width: 590px;
+    margin-top: px; /*---Abstand zwischen Foto "gruppe_kochen" und Top von DIV -------*/
+    padding-right: 80px /* -Abstand Foto Köchinnen und left von deinen eigenen DIV*/
+
+}
+
+.UeberUns {
+   display: flex;
+   padding-left: 0px;
+}
+
+.UeberUns h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #383737;
+}
+
+.UeberUns h2 {
+    font-size: 25px; 
+    line-height: 15x; 
+    width: 90%;
+    
+}
+
+.UeberUns p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+
+.wir {
+   display: flex;
+   padding-left: 0px;
+}
+
+.wir p {
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 25px; 
+    line-height: 15x; 
+    width: 90%;
+}
+
+span{
+    color: rgb(238, 151, 51);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+/*------------------Footer----------------*/
+
+.footerNavigation {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    margin: 100px 0 30px;
+}
+
+.footerNavigation>li {
+    width: auto;
+    margin: 0;
+}
+
+.footerNavigation>li a {
+    color: #353A40;
+    text-decoration: none;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.footerNavigation>li a:hover,
+.footerNavigation>li a:focus {
+    color: rgb(238, 151, 51);
+}
+   

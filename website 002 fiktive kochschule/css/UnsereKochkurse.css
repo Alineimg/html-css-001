@@ -1,0 +1,212 @@
+body {
+    background-color: white;
+    color:#353A40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0px;
+    padding-top: 0;
+    
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+
+#logo {
+    flex-direction: column;
+    max-width: 220px;
+    margin-top: 5px;
+}
+
+
+li {
+display: inline-block;
+margin: 20px;
+margin-top: 80px ;
+}
+
+a{
+    color:#353A40;
+}
+
+/*
+.foto_banner {
+    width: 100%;
+    height: 250px;  
+    background-image: url(../img/crop__261195_t1__1920.webp);
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+
+a:hover {
+ color: rgb(238, 151, 51);
+ transition: 0.5 all;
+}
+
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+main {
+    flex-direction: row;
+}
+
+
+section {
+    margin-bottom: 50px; /*Abstand zwischen ALLE SECTIONS von der Page*/ 
+}
+
+.Kurse{
+    padding-block: ;
+}
+
+
+.Title {
+   display: flex;
+   padding-left: 0px;
+}
+
+.Title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #383737;
+}
+
+.Title h2 {
+    font-size: 25px; 
+    line-height: 15x; 
+    width: 90%;
+    
+}
+
+.Title p  {
+    line-height: 20px;
+    max-width: 1400px;
+}
+
+.Extra p {
+    line-height: 20px;
+    max-width: 1400px;
+}
+
+.Kurse {
+   display: flex; 
+   justify-content: space-between;
+}
+
+
+.Kurse div {
+    text-align: center;
+ 
+ }
+
+ .Extra {
+    
+ }
+
+/*------------------Fotos von Kochkurse mit Button buchen----------------*/
+
+figure img {
+      height: 180px; 
+    
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+figcaption {   
+    text-align:center;
+
+}
+
+/*------------------Button Jetzt buchen----------------*/
+
+form [type="submit"] {
+   height: 30px;
+   width: 90px;
+   background-color: rgb(238, 151, 51);
+   color: white;
+   font-weight: bold;
+   border: none;
+}
+
+form [type="submit"]:hover {
+  cursor: pointer ;    
+}
+
+input{
+    margin-top: 0px;
+    height: 20px;
+    border-radius: 10px;
+    border-style:ridge;
+    border-color: rgb(235, 235, 235);
+    font-size: 12px;
+    display: inline-flex;
+}
+
+
+h2{
+    font-size: 25px; 
+    line-height: 15x; 
+    width: 90%;
+}
+
+span{
+    color: rgb(238, 151, 51);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+/*------------------Footer----------------*/
+
+.footerNavigation {
+    display: flex;
+    padding-left: 0;
+    justify-content:space-between;  
+    margin-top: 100px;
+}
+
+.footerNavigation>li {
+    height: 5px;
+    width: auto;
+    margin: 0;
+}
+
+
+.footerNavigation >li a:link, .footerNavigation>li A:visited{
+    display: flex;
+    color: #353A40;
+    text-decoration: none;
+    
+    height: auto;
+    justify-content: center;
+    align-items: ;
+}
+
+.footerNavigation >li a:hover, .footerNavigation >li a:focus{
+    text-decoration: none;
+    color: rgb(238, 151, 51);
+    transition: 0.5 all;
+}
+
+
+
+    
+    
